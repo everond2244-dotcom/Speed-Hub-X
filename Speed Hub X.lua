@@ -1,9 +1,1 @@
---!strict
-
-local HttpGet = game.HttpGet
-local GameId: number = game.GameId
-
-local URL: string? = "https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/refs/heads/main/Loader.lua"
-if not URL then return end
-
-loadstring(HttpGet(game, URL))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))(https://www.roblox.com/games/107778070777162/Steal-An-Egg)
